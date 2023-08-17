@@ -1,6 +1,10 @@
 # Tokyo-Olympics-DE
 ![Power BI Report](https://github.com/Tinaxe01/Tokyo-Olympics-DE/raw/main/olympic-screenshot.png)
 
+## Link to interactive report
+[Tokyo Olympics Report](https://app.powerbi.com/view?r=eyJrIjoiNmU3ODllMTUtYzQwNS00NjE2LWIwN2MtNGIyOGViNWI4MjRiIiwidCI6IjY3NTFiMzkyLTkyZDEtNGNhNi04M2RjLTJhM2EwMzA4M2ViMCJ9)
+
+
 ## Data Processing Workflow
 
 This project involves the extraction and processing of Olympic data from a REST API using Azure Data Factory. The data is initially acquired and stored in its raw format within designated folders in Azure Data Lake Storage Gen2.
