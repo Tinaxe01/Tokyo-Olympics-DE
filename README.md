@@ -1,4 +1,6 @@
 # Tokyo-Olympics-DE
+![Power BI Report](./olympics-screenshot.png)
+
 
 ## Data Processing Workflow
 
