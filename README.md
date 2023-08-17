@@ -136,8 +136,30 @@ To successfully set up and run the Olympic Data Engineering project, you'll need
 
 ## Usage
 
-1. [Provide examples or code snippets on how to use your project.]
-2. [Explain the main workflows or use cases.]
+With Azure Data Factory (ADF) as the backbone of the Olympic Data Engineering project, you can efficiently manage data ingestion, transformation, and integration with Azure Databricks for advanced processing. Follow these steps to maximize the benefits of this workflow:
+
+1. **Data Extraction and Ingestion**:
+   - Configure Azure Data Factory pipelines to extract Olympic data from the REST API.
+   - Utilize ADF's data movement capabilities to load the extracted data into the "raw" container within Azure Data Lake Storage Gen2.
+
+2. **Data Transformation with Azure Databricks**:
+   - Set up an Azure Databricks cluster and notebooks to perform intricate data transformations.
+   - Trigger the Azure Databricks job within your Azure Data Factory pipeline to seamlessly integrate your transformation logic.
+
+3. **Data Storage and Integration**:
+   - Post-transformation, the refined data will be available in the "transformed" container within Azure Data Lake Storage Gen2.
+
+4. **Analytics and Visualization** (Optional):
+   - Leverage Power BI to connect to the transformed data stored in the "transformed" container.
+   - Generate interactive dashboards, reports, and visualizations to glean insights from the processed data.
+
+5. **Exploration and Refinement**:
+   - Experiment with various transformations and visualization techniques to uncover deeper insights.
+   - Iterate on your workflow and enhance it based on your evolving analysis goals.
+
+## Example Workflow
+
+For code examples illustrating ADF pipelines, Databricks notebooks, and Power BI integration, explore the [examples](./examples) directory in the repository.
 
 ## Data Pipeline
 
