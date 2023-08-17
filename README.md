@@ -1,6 +1,5 @@
 # Tokyo-Olympics-DE
-![Power BI Report](https://github.com/Tinaxe01/Tokyo-Olympics-DE/blob/main/olympic-screenshot.png)
-
+![Power BI Report](https://github.com/Tinaxe01/Tokyo-Olympics-DE/raw/main/olympic-screenshot.png)
 
 ## Data Processing Workflow
 
