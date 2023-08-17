@@ -106,8 +106,34 @@ Follow these steps to set up and run the Olympic Data Engineering project on you
 
 ### Configuration
 
-1. [Explain how to configure your project, including any required settings or environment variables.]
-2. [Provide examples of configuration files if applicable.]
+To successfully set up and run the Olympic Data Engineering project, you'll need to configure various components. Here's how to configure the necessary settings:
+
+### Azure Data Factory Configuration
+
+1. **Create Data Factory**: Set up an Azure Data Factory instance in your Azure portal.
+
+2. **Define Data Sources**: Configure data source connections within Azure Data Factory for accessing the REST API containing Olympic data.
+
+3. **Create Pipelines**: Design pipelines to extract data from the REST API and land it in the raw container in Azure Data Lake Storage Gen2.
+
+### Azure Databricks Configuration
+
+1. **Provision Databricks Workspace**: Create an Azure Databricks workspace in your Azure portal.
+
+2. **Data Transformation**: Utilize Databricks notebooks to perform data transformations. Infer schema and apply necessary processing to refine the data.
+
+### Azure Data Lake Storage Gen2 Configuration
+
+1. **Set Up Containers**: Create containers for both raw and transformed data in Azure Data Lake Storage Gen2.
+
+2. **Access Control**: Configure appropriate access control and permissions for the containers to ensure data security.
+
+### Power BI Configuration (Optional)
+
+1. **Connect to Transformed Data**: In Power BI, connect to the transformed data container in Azure Data Lake Storage Gen2.
+
+2. **Build Dashboards**: Design interactive dashboards and visualizations to derive insights from the transformed Olympic data.
+
 
 ## Usage
 
