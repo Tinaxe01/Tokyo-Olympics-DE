@@ -1,13 +1,31 @@
 # Tokyo-Olympics-DE
+Welcome to my project! This repository showcases my work in the field of data engineering, with a focus on Microsoft Azure technologies.
+## Tokyo Olympic Report
 ![Power BI Report](https://github.com/Tinaxe01/Tokyo-Olympics-DE/raw/main/olympic-screenshot.png)
 
 ## Link to interactive report
 [Tokyo Olympics Report](https://app.powerbi.com/view?r=eyJrIjoiNmU3ODllMTUtYzQwNS00NjE2LWIwN2MtNGIyOGViNWI4MjRiIiwidCI6IjY3NTFiMzkyLTkyZDEtNGNhNi04M2RjLTJhM2EwMzA4M2ViMCJ9)
 
+## About the Project
+
+In this project, I've leveraged my Azure data engineering skills to build a robust data pipeline that ingests, processes, and analyzes large datasets (this is just for demo). My goal is to demonstrate my proficiency in working with Azure's data tools and services.
+
+## Technologies and Skills Showcased
+
+- **Azure Data Factory:** Designed and implemented data workflows using Azure Data Factory to orchestrate data movement and transformations across various sources and destinations.
+
+- **Azure Databricks:** Utilized Azure Databricks for scalable and collaborative data processing. Developed ETL jobs and notebooks for data transformations and analysis.
+
+- **Azure Key Vault:** Leveraged Azure Key Vault to securely manage and store sensitive configuration settings, secrets, and keys used in the data pipeline.
+
+- **Azure Data Lake Storage Gen2:** Utilized Azure Data Lake Storage Gen2 for scalable and high-performance storage of large datasets, seamlessly integrating it into the data pipeline.
+
 
 ## Data Processing Workflow
 
-This project involves the extraction and processing of Olympic data from a REST API using Azure Data Factory. The data is initially acquired and stored in its raw format within designated folders in Azure Data Lake Storage Gen2.
+This project involves the extraction and processing of Olympic data from a REST API using Azure Data Factory. The data is initially acquired and stored in its raw format within designated folders in Azure Data Lake Storage Gen2. We use only 1 copy activity and 2 datasets (source and sink).
+
+![Power BI Report](https://github.com/Tinaxe01/Tokyo-Olympics-DE/raw/main/tokyo-data-pipeline2.png)
 
 ### Process Overview
 
@@ -30,61 +48,9 @@ This project involves the extraction and processing of Olympic data from a REST 
 
 This end-to-end workflow showcases how Olympic data is ingested, processed, transformed, and ultimately made available for analytics and dashboard creation using a combination of Azure services.
 
-For any inquiries or support, please reach out to chinyatitb1@gmail.com.
-
-
-## Table of Contents
-
-- [Project Overview](##project-overview)
-- [Features](##features)
-- [Getting Started](##getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-- [Usage](#usage)
-- [Data Pipeline](#data-pipeline)
-
 ## Project Overview
 
 This data engineering project focuses on the acquisition, processing, transformation, and analysis of Olympic data using a robust cloud-based infrastructure. Leveraging Azure services, the project seamlessly navigates through various stages, from data extraction to the creation of insightful analytics and dashboards.
-
-## Features
-
-1. **Automated Data Extraction**:
-   - Utilize Azure Data Factory for automated extraction of Olympic data from a REST API source, ensuring up-to-date data feeds.
-
-2. **Organized Data Storage**:
-   - Employ Azure Data Lake Storage Gen2 for structured storage, segregating raw and transformed data into separate containers.
-
-3. **Scalable Data Processing**:
-   - Leverage Azure Databricks for scalable data processing, including complex transformations and schema inference.
-
-4. **Flexible Data Transformation**:
-   - Implement versatile data transformations in Azure Databricks to meet diverse analytical needs.
-
-5. **Enhanced Data Quality**:
-   - Utilize schema inference in Azure Databricks to improve data quality and consistency.
-
-6. **Efficient Data Movement**:
-   - Seamlessly transfer data between storage containers using Azure services, minimizing latency.
-
-7. **Interactive Analytics**:
-   - Integrate Power BI for interactive dashboards and visualizations based on transformed data.
-
-8. **End-to-End Workflow**:
-   - Present a comprehensive data engineering workflow covering extraction, transformation, storage, and analytics.
-
-9. **Cloud-Native Architecture**:
-   - Highlight the advantages of a cloud-native architecture, including scalability and managed services.
-
-10. **Collaborative Environment**:
-    - Foster collaboration among stakeholders using Azure services for efficient teamwork.
-
-11. **Documentation and Support**:
-    - Provide clear setup documentation and user support for a smooth experience.
-
-12. **Continuous Improvement**:
-    - Emphasize potential for ongoing enhancement through new data sources, transformations, and analytics.
 
 
 ## Getting Started
@@ -98,14 +64,6 @@ Follow these steps to set up and run the Olympic Data Engineering project on you
 - [Azure Data Lake Storage Gen2](https://azure.microsoft.com/services/data-lake-storage/)
 - [Azure Databricks](https://azure.microsoft.com/services/databricks/)
 - [Power BI](https://powerbi.microsoft.com/) (optional, for analytics)
-
-### Installation
-
-1. Clone this repository to your local machine or a cloud environment:
-
-   ```bash
-   git clone https://github.com/yourusername/olympic-data-engineering.git
-   cd olympic-data-engineering
 
 ### Configuration
 
@@ -161,16 +119,7 @@ With Azure Data Factory (ADF) as the backbone of the Olympic Data Engineering pr
    - Experiment with various transformations and visualization techniques to uncover deeper insights.
    - Iterate on your workflow and enhance it based on your evolving analysis goals.
 
-## Example Workflow
-
-For code examples illustrating ADF pipelines, Databricks notebooks, and Power BI integration, explore the [examples](./examples) directory in the repository.
-
-## Data Pipeline
-
-[If your project involves a data pipeline, explain its components and how data flows through the system.]
-
 ---
+**Acknowledgments**: I would like to express my heartfelt appreciation to Darshil Parmar, whose invaluable contributions have significantly enriched the landscape of data engineering. His dedication and expertise have left an indelible mark on this field. A special note of gratitude goes to him for generously providing the dataset and crafting enlightening video tutorials. His efforts have undoubtedly propelled the data engineering community forward, inspiring countless learners along the way.
 
-**Note:** [Add any additional notes or acknowledgments you want to include. This could be credits to external libraries, datasets used, or anything else you think is relevant.]
-
-For questions or support, contact [your contact information].
+For questions or support, contact chinyatitb1@gmail.com.
