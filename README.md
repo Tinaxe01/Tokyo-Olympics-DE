@@ -31,16 +31,14 @@ For any inquiries or support, please reach out to chinyatitb1@gmail.com.
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Getting Started](#getting-started)
+- [Project Overview](##project-overview)
+- [Features](##features)
+- [Getting Started](##getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Configuration](#configuration)
 - [Usage](#usage)
 - [Data Pipeline](#data-pipeline)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -144,14 +142,6 @@ To successfully set up and run the Olympic Data Engineering project, you'll need
 ## Data Pipeline
 
 [If your project involves a data pipeline, explain its components and how data flows through the system.]
-
-## Contributing
-
-[Explain how others can contribute to your project. Include guidelines for bug fixes, feature development, and pull requests.]
-
-## License
-
-[Specify the license under which your project is published.]
 
 ---
 
