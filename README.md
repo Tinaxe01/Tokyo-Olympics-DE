@@ -92,8 +92,6 @@ With Azure Data Factory (ADF) as the backbone of the Olympic Data Engineering pr
 ---
 **Acknowledgments**: I would like to express my heartfelt appreciation to **Darshil Parmar**, whose invaluable contributions have significantly enriched the landscape of data engineering. His dedication and expertise have left an indelible mark on this field. A special note of gratitude goes to him for generously providing the dataset and crafting enlightening video tutorials. His efforts have undoubtedly propelled the data engineering community forward, inspiring countless learners along the way.
 
-For questions or support, contact chinyatitb1@gmail.com.
-
 ## Connect with Me
 [LinkedIn](https://www.linkedin.com/in/tinashe-chinyati/)
 
